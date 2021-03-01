@@ -1,0 +1,10 @@
+﻿@model TiendaEjemplo.Models.MPPreference
+
+<div>
+    Hace@*r pago</div>
+
+        <script src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"
+                data-preference-id="@Html.DisplayFor(model => model.InitPoint)">
+        </script>*@
+
+    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar con Mercado Pago</a>

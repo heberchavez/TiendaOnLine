@@ -1,0 +1,84 @@
+﻿@model TiendaEjemplo.Models.RespuestaPagoMP
+
+<div>
+    <h4>PAGO APROBADO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.collection_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.collection_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.collection_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.collection_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.external_reference)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.external_reference)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.payment_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.payment_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.merchant_order_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.merchant_order_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.preference_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.preference_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.site_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.site_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.processing_mode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.processing_mode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.merchant_account_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.merchant_account_id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
